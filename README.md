@@ -35,7 +35,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Using Python interpreter
 - Basic syntax and variables
 - Writing your first Python program
-[Read more](introduction_to_python.md)
+- [Read more](introduction_to_python.md)
+  
 ---
 
 ## Core Concepts
@@ -47,7 +48,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Operators (arithmetic, logical, comparison)
 - Strings and string manipulation
 - Lists, tuples, dictionaries, sets, and comprehensions
-[Read more](coreconcepts.md)
+- [Read more](coreconcepts.md)
+  
 ---
 
 ## Control Flow
@@ -59,7 +61,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - for loops and while loops
 - Loop control statements (break, continue)
 - Nested loops and loop else clauses
-[Read more](controlflow.md)
+- [Read more](controlflow.md)
+  
 ---
 
 ## Functions
@@ -71,7 +74,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Return statements and returning values
 - Scope and lifetime of variables
 - Lambda functions and anonymous functions
-
+- [Read more](functions.md)
+  
 ---
 
 ## Data Structures
@@ -83,7 +87,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Dictionaries: creating, accessing elements, iterating
 - Sets: creating, modifying, operations
 - List comprehensions, dictionary comprehensions, set comprehensions
-
+- [Read more](datastructures.md)
+  
 ---
 
 ## File Handling
@@ -95,7 +100,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Working with file paths and directories
 - Error handling and exceptions in file operations
 - Context managers and the `with` statement
-
+- [Read more](filehandling.md)
+  
 ---
 
 ## Exception Handling
@@ -107,7 +113,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Raising exceptions and custom exceptions
 - Handling specific exceptions
 - Exception chaining and traceback information
-
+- [Read more](exceptionhandling.md)
+  
 ---
 
 ## Object-Oriented Programming
@@ -119,7 +126,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Inheritance and method overriding
 - Polymorphism and method overloading
 - Class methods, static methods, and properties
-
+- [Read more](oops.md)
+  
 ---
 
 ## Modules and Packages
@@ -131,7 +139,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Importing from standard library modules
 - Relative imports and absolute imports
 - Organizing large projects with modules and packages
-
+- [Read more](modulesandpackages.md)
+  
 ---
 
 ## Advanced Topics
@@ -143,7 +152,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Context managers and the `contextlib` module
 - Closures and nested functions
 - Meta-programming and `__getattr__`, `__setattr__` methods
-
+- [Read more](advancedtopics.md)
+  
 ---
 
 ## Concurrency
@@ -155,7 +165,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Synchronization and locks
 - Using the `multiprocessing` module for multiprocessing
 - Shared resources and inter-process communication
-
+- [Read more](concurrency.md)
+  
 ---
 
 ## Networking
@@ -167,7 +178,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Making HTTP requests using `requests` module
 - Handling responses and status codes
 - Working with JSON data and APIs
-
+- [Read more](networking.md)
+  
 ---
 
 ## Database Access
@@ -179,7 +191,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Inserting, querying, updating, and deleting data
 - Using transactions and handling errors
 - ORM (Object-Relational Mapping) with SQLAlchemy
-
+- [Read more](datatabaseaccess.md)
+  
 ---
 
 ## Web Scraping
@@ -191,7 +204,8 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Navigating and searching the HTML tree
 - Extracting data from web pages
 - Handling dynamic content and AJAX requests
-
+- [Read more](webscraping.md)
+  
 ---
 
 ## GUI Programming
@@ -203,7 +217,7 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Layout management with grid, pack, and place
 - Handling user input and events
 - Building simple applications with Tkinter
-
+- [Read more](guiprogramming.md)
 ---
 
 ## Data Analysis
@@ -215,7 +229,7 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Data cleaning, manipulation, and transformation
 - Performing statistical analysis and visualization
 - Reading and writing data to different formats (CSV, Excel, etc.)
-
+- [Read more](dataanalysis.md)
 ---
 
 ## Machine Learning
@@ -227,19 +241,20 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Unsupervised learning: clustering and dimensionality reduction
 - Model evaluation and cross-validation
 - Building and deploying machine learning models
-
+- [Read more](machinelearning.md)
+  
 ---
 
 ## Projects
 
 ### Hands-on projects to apply Python skills
 
-- **Calculator**: Simple calculator application
-- **Todo List**: Basic task management application
-- **Web Scraper**: Scraping data from websites
-- **Chatbot**: Creating a chatbot using natural language processing
-- **RESTful API**: Building a simple API server
-- **Data Analysis Project**: Analyzing a dataset using Pandas and visualizing insights
+- **Calculator**: Simple calculator application - [Read more](calculatorproject.md)
+- **Todo List**: Basic task management application - [Read more](todolistproject.md)
+- **Web Scraper**: Scraping data from websites - [Read more](webscraperproject.md)
+- **Chatbot**: Creating a chatbot using natural language processing - [Read more](chatbotproject.md)
+- **RESTful API**: Building a simple API server - [Read more](apiproject.md)
+- **Data Analysis Project**: Analyzing a dataset using Pandas and visualizing insights - [Read more](dataproject.md)
 
 ---
 
