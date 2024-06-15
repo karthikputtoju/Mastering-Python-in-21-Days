@@ -243,14 +243,6 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 
 ---
 
-## Getting Started
-
-To get started with the tutorial, clone this repository:
-
-```bash
-git clone https://github.com/your-username/Python-Tutorial.git
-cd Python-Tutorial
-
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
@@ -265,6 +257,14 @@ This repository is licensed under the MIT License. See the LICENSE file for more
 - **Sections**: Each section provides a brief overview of the topic and outlines key concepts and learning objectives.
 - **Projects Section**: Highlights hands-on projects where learners can apply their Python skills.
 - **Getting Started**: Provides instructions for cloning the repository and getting started with the tutorial.
+  
+## Getting Started
+
+To get started with the tutorial, clone this repository:
+
+```bash
+git clone https://github.com/your-username/Python-Tutorial.git
+cd Python-Tutorial
 - **Contributions and License**: Encourages contributions and specifies the licensing information for the repository.
 
 This README.md template serves as a comprehensive guide and introduction to the Python tutorial repository, making it easier for learners to navigate and engage with the content effectively. Adjustments can be made based on specific tutorial requirements or additional topics/extensions.
