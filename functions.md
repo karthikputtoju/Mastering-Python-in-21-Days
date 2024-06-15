@@ -28,7 +28,6 @@ result = add(5, 3)  # Output: 8
 ```
 ### Return Statements and Returning Values
 ```python
-Copy code
 # Function to square a number and return the result
 def square(x):
     return x ** 2
