@@ -13,7 +13,7 @@ Welcome to the Python Course repository! This repository contains comprehensive 
 
 1. **Clone the Repository**:
     ```bash
-    [git clone https://github.com/karthikputtoju/Python-Course.git](https://github.com/karthikputtoju/Python_Tutorial.git)
+    git clone https://github.com/karthikputtoju/Python-Course.git
     ```
 
 2. **Install Dependencies**:
