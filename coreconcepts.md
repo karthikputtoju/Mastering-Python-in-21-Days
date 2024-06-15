@@ -11,7 +11,6 @@ Python supports several built-in data types:
 - **Set Types**: `set`, `frozenset`
 - **None Type**: `NoneType`
 
-### Example:
 ```python
 # Numeric types
 age = 25         # int
@@ -125,10 +124,10 @@ uppercase_name = full_name.upper()
 
 ## Lists, Tuples, Dictionaries, Sets, and Comprehensions
 
-### Lists
+## Lists
 Lists are ordered collections that can hold elements of different data types. They are mutable, meaning their elements can be changed after creation.
 
-### Creating Lists
+#### Creating Lists
 
 ```python
 # Creating lists
@@ -137,7 +136,7 @@ names = ["Alice", "Bob", "Charlie"]
 mixed_list = [1, "Alice", True, 3.14]
 ```
 
-### Accessing elements
+#### Accessing elements
 
 Elements in a list are accessed using indexing (starting from 0):
 
@@ -146,7 +145,7 @@ Elements in a list are accessed using indexing (starting from 0):
 first_element = my_list[0]    # 1
 last_element = my_list[-1]    # 5
 ```
-### List Methods
+#### List Methods
 
 Python provides built-in methods to manipulate lists:
 
@@ -164,7 +163,7 @@ len(my_list)            # Length of the list
 sorted_list = sorted(my_list)  # Returns a sorted copy of the list
 ```
 
-### List Comprehensions
+#### List Comprehensions
 
 List comprehensions provide a concise way to create lists:
 
@@ -177,36 +176,97 @@ even_numbers = [x for x in range(10) if x % 2 == 0]  # [0, 2, 4, 6, 8]
 ```
 
 ## Tuples
-Tuples are ordered collections that are immutable:
+Tuples are ordered collections that are immutable, meaning their elements cannot be changed after creation.
 
-
+#### Creating Tuples
+```python
 # Creating tuples
 my_tuple = (1, 2, 3)
+coordinates = (4.5, 6.7)
+```
 
+#### Accessing Elements
+Elements in a tuple are accessed using indexing:
+
+```python
 # Accessing elements
-first_element = my_tuple[0]
-Dictionaries
-Dictionaries are unordered collections of key-value pairs:
+first_element = my_tuple[0]    # 1
+second_element = my_tuple[1]   # 2
+```
 
-# Creating dictionaries
-person = {'name': 'Alice', 'age': 30}
+##### Tuple Methods
+Tuples have fewer methods compared to lists due to their immutability:
 
-# Accessing values
-person_name = person['name']
+```python
+# Tuple length
+len(my_tuple)           # Length of the tuple
 
-# Dictionary methods
-person['city'] = 'New York'
-Sets
-Sets are unordered collections of unique elements:
+# Tuple unpacking
+x, y, z = my_tuple      # Unpacks elements into variables
+```
 
+## Dictionaries
+Dictionaries are unordered collections of key-value pairs. They are mutable and can hold elements of different data types.
+
+#### Creating dictionaries
+```python
+person = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+```
+
+#### Accessing Elements
+Elements in a dictionary are accessed using keys:
+
+```python
+# Accessing elements
+person_name = person['name']    # 'Alice'
+person_age = person.get('age')  # 30
+```
+
+#### Dictionary Methods
+Python provides built-in methods to manipulate dictionaries:
+
+```python
+# Adding or updating elements
+person['email'] = 'alice@example.com'
+
+# Removing elements
+removed_age = person.pop('age')   # Removes and returns the 'age' value
+
+# Other operations
+len(person)             # Number of items in the dictionary
+keys = person.keys()    # Returns a view object of dictionary keys
+values = person.values()  # Returns a view object of dictionary values
+```
+
+## Sets
+Sets are unordered collections of unique elements. They are mutable but do not allow duplicate elements.
+
+#### Creating Sets
+```python
 # Creating sets
-my_set = {1, 2, 3}
+my_set = {1, 2, 3, 4, 5}
+unique_characters = set('hello')
+```
 
+#### Set Operations
+Python sets support various operations:
+
+```python
 # Adding elements
-my_set.add(4)
-Comprehensions
+my_set.add(6)           # {1, 2, 3, 4, 5, 6}
+
+# Removing elements
+my_set.remove(3)        # {1, 2, 4, 5}
+
+# Set operations
+union_set = my_set.union({4, 5, 6})   # {1, 2, 4, 5, 6}
+intersection_set = my_set.intersection({2, 3, 4})  # {2, 4}
+```
+
+## Comprehensions
 Comprehensions provide a concise way to create lists, dictionaries, and sets:
 
+```python
 # List comprehension
 squares = [x**2 for x in range(10)]
 
@@ -215,4 +275,6 @@ square_dict = {x: x**2 for x in range(5)}
 
 # Set comprehension
 square_set = {x**2 for x in range(10)}
+```
+
 This note provides an overview of fundamental concepts in Python programming, including data types, variables, operators, and basic syntax.
