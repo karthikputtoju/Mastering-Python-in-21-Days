@@ -283,6 +283,6 @@ This repository is licensed under the MIT License. See the LICENSE file for more
 To get started with the tutorial, clone this repository:
 
 ```bash
-git clone https://github.com/your-username/Python-Tutorial.git
+git clone https://github.com/karthikputtoju/Python_Tutorial.git
 cd Python-Tutorial
 
