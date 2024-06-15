@@ -18,3 +18,42 @@ def greet(name):
 
 greet("Alice")  # Output: Hello, Alice!
 ```
+### Function Parameters and Arguments
+```python
+# Function to add two numbers
+def add(a, b):
+    return a + b
+
+result = add(5, 3)  # Output: 8
+```
+### Return Statements and Returning Values
+```python
+Copy code
+# Function to square a number and return the result
+def square(x):
+    return x ** 2
+
+result = square(4)  # Output: 16
+```
+### Scope and Lifetime of Variables
+```python
+# Example demonstrating scope and lifetime of variables
+def my_function():
+    x = 10
+    print(x)  # Output: 10
+
+my_function()
+# print(x)  # Raises NameError: name 'x' is not defined
+```
+### Lambda Functions
+```python
+# Lambda function to square a number
+square = lambda x: x ** 2
+print(square(5))  # Output: 25
+```
+### Anonymous Functions
+```python
+# Example of using an anonymous function with map()
+squared_numbers = list(map(lambda x: x ** 2, [1, 2, 3]))
+print(squared_numbers)  # Output: [1, 4, 9]
+```
