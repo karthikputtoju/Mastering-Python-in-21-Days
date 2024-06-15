@@ -1,15 +1,15 @@
 # Python Basics: Data Types, Variables, Operators, and Basic Syntax
 
-## Data Types
-
+## Python Data Types
 Python supports several built-in data types:
-
-- **Numeric Types**: `int`, `float`, `complex`
-- **Boolean Type**: `bool`
-- **Sequence Types**: `str` (string), `list`, `tuple`, `range`
-- **Mapping Type**: `dict` (dictionary)
-- **Set Types**: `set`, `frozenset`
-- **None Type**: `NoneType`
+| Type                    | Description                                                                   | Example                           |
+|-------------------------|-------------------------------------------------------------------------------|-----------------------------------|
+| **Numeric Types**       | Integers, floats, complex numbers                                              | `x = 5`, `y = 3.14`, `z = 2 + 3j`  |
+| **Boolean Type**        | Logical values (`True` or `False`)                                            | `is_active = True`, `is_admin = False` |
+| **Sequence Types**      | Ordered collections of items                                                  | `list = [1, 2, 3]`, `tuple = (4, 5, 6)` |
+| **Mapping Types**       | Collections that map keys to values                                           | `dict = {'name': 'Alice', 'age': 30}` |
+| **Set Types**           | Unordered collections of unique items                                          | `set = {1, 2, 3}`, `frozenset = frozenset({1, 2, 3})` |
+| **None Type**           | Represents the absence of a value                                              | `x = None`                        |
 
 ```python
 # Numeric types
@@ -37,9 +37,13 @@ frozen_set = frozenset({'apple', 'banana', 'cherry'})  # frozenset
 value = None
 ```
 
-## Variables and Constants
+## Python Variables and Constants
+| Type            | Description                                                      | Example                         |
+|-----------------|------------------------------------------------------------------|---------------------------------|
+| **Variables**   | Containers for storing data values. Mutable (can be changed).    | `x = 5`                         |
+| **Constants**   | Variables whose value should not change throughout the program.  | `PI = 3.14`                     |
 
-### Variables
+#### Variables
 
 Variables in Python are dynamically typed and do not need explicit declaration:
 
@@ -47,7 +51,7 @@ Variables in Python are dynamically typed and do not need explicit declaration:
 message = "Hello, World!"
 count = 10
 ```
-### Constants
+#### Constants
 
 Python doesn't have built-in constant types, but naming conventions (UPPER_CASE) are used to denote constants:
 
@@ -56,7 +60,7 @@ PI = 3.14159
 MAX_SIZE = 100
 ```
 
-## Operators
+## Python Operators
 
 | Category            | Operators              | Description                                                     | Example                    |
 |---------------------|------------------------|-----------------------------------------------------------------|----------------------------|
@@ -68,10 +72,7 @@ MAX_SIZE = 100
 | **Identity**        | `is`, `is not`         | Compare memory location of objects                              | `x is y` (True if `x` and `y` refer to the same object) |
 | **Membership**      | `in`, `not in`         | Check if a value exists within a sequence                       | `'a' in ['a', 'b', 'c']` (Result: `True`) |
 
-## Examples
-
-### Arithmetic Operators
-
+#### Arithmetic Operators
 - **Addition**: `5 + 3` (Result: `8`)
 - **Subtraction**: `10 - 4` (Result: `6`)
 - **Multiplication**: `2 * 6` (Result: `12`)
@@ -80,27 +81,23 @@ MAX_SIZE = 100
 - **Floor Division**: `10 // 3` (Result: `3`)
 - **Exponentiation**: `2 ** 3` (Result: `8`)
 
-### Comparison Operators
-
+#### Comparison Operators
 - **Equal to**: `5 == 5` (Result: `True`)
 - **Not equal to**: `10 != 5` (Result: `True`)
 - **Greater than**: `10 > 5` (Result: `True`)
 - **Less than or equal to**: `3 <= 3` (Result: `True`)
 
-### Logical Operators
-
+#### Logical Operators
 - **AND**: `True and False` (Result: `False`)
 - **OR**: `True or False` (Result: `True`)
 - **NOT**: `not True` (Result: `False`)
 
-### Assignment Operators
-
+#### Assignment Operators
 - **Assignment**: `x = 10`
 - **Increment**: `x += 1` (Equivalent to `x = x + 1`)
 - **Decrement**: `x -= 1` (Equivalent to `x = x - 1`)
 
-### Bitwise Operators
-
+#### Bitwise Operators
 - **AND**: `5 & 3` (Result: `1`)
 - **OR**: `5 | 3` (Result: `7`)
 - **XOR**: `5 ^ 3` (Result: `6`)
@@ -108,18 +105,13 @@ MAX_SIZE = 100
 - **Left Shift**: `5 << 1` (Result: `10`)
 - **Right Shift**: `5 >> 1` (Result: `2`)
 
-### Identity Operators
-
+#### Identity Operators
 - **is**: `x is y` (True if `x` and `y` refer to the same object)
 - **is not**: `x is not y` (True if `x` and `y` do not refer to the same object)
 
-### Membership Operators
-
+#### Membership Operators
 - **in**: `'a' in ['a', 'b', 'c']` (Result: `True`)
 - **not in**: `'d' not in ['a', 'b', 'c']` (Result: `True`)
-
-
-<img width="750" alt="image" src="https://github.com/karthikputtoju/Python_Tutorial/assets/37204779/91362dbb-bbbb-47d1-af04-8d7b92f7a32b">
 
 ```python
 #Arithmetic Operators:
@@ -161,10 +153,33 @@ fruits = ['apple', 'banana', 'cherry']
 print('banana' in fruits)   # Output: True
 ```
 
-## Strings and String Manipulation
+## Python Strings and String Manipulation
+| Operation                    | Description                                                             | Example                                 |
+|------------------------------|-------------------------------------------------------------------------|-----------------------------------------|
+| **Creating Strings**         | Define strings using single quotes (`'`) or double quotes (`"`)         | `message = "Hello, World!"`             |
+| **Concatenation**            | Combine strings using the `+` operator                                   | `greeting = "Hello" + " " + "World"`    |
+| **String Indexing**          | Access individual characters in a string using indices (starting from 0) | `first_char = message[0]` (Result: `'H'`) |
+| **String Slicing**           | Extract a substring from a string using slicing                          | `substring = message[7:12]` (Result: `'World'`) |
+| **String Length**            | Determine the length of a string using `len()` function                  | `length = len(message)` (Result: `13`)  |
+| **String Methods**           | Perform various operations on strings using built-in methods             | `message.lower()`, `message.strip()`   |
+| **String Formatting**        | Format strings using f-strings or `.format()` method                     | `f"Hello, {name}!"`, `"Hello, {}!".format(name)` |
 
-Strings in Python are sequences of characters enclosed within quotes (either single `'` or double `"` quotes). They are immutable, meaning once defined, their values cannot be changed.
-Strings in Python are immutable sequences of characters:
+### Creating and Concatenating Strings
+- **Creating a String**: `"Hello, World!"`
+- **Concatenating Strings**: `"Hello" + " " + "World"` (Result: `"Hello World"`)
+
+### String Indexing and Slicing
+- **Indexing**: `message[0]` (Result: `'H'`)
+- **Slicing**: `message[7:12]` (Result: `'World'`)
+
+### String Methods
+- **Lowercase**: `message.lower()` (Result: `"hello, world!"`)
+- **Uppercase**: `message.upper()` (Result: `"HELLO, WORLD!"`)
+- **Stripping Whitespace**: `message.strip()` (Removes leading and trailing whitespace)
+
+### String Formatting
+- **Formatted String (f-string)**: `f"Hello, {name}!"`
+- **`.format()` Method**: `"Hello, {}!".format(name)`
 ```python
 #Creating strings
 message = "Hello, World!"
