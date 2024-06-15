@@ -58,7 +58,66 @@ MAX_SIZE = 100
 
 ## Operators
 
-Python supports various operators:
+| Category            | Operators              | Description                                                     | Example                    |
+|---------------------|------------------------|-----------------------------------------------------------------|----------------------------|
+| **Arithmetic**      | `+`, `-`, `*`, `/`, `%`, `//`, `**` | Perform basic mathematical operations                          | `5 + 3` (Result: `8`)       |
+| **Comparison**      | `==`, `!=`, `>`, `<`, `>=`, `<=` | Compare values and return Boolean (True or False)               | `10 > 5` (Result: `True`)   |
+| **Logical**         | `and`, `or`, `not`     | Combine Boolean expressions and negate values                   | `True and False` (Result: `False`) |
+| **Assignment**      | `=`, `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=` | Assign values to variables                                     | `x += 1` (Equivalent to `x = x + 1`) |
+| **Bitwise**         | `&`, `|`, `^`, `~`, `<<`, `>>` | Manipulate bits of integers                                    | `5 & 3` (Result: `1`)       |
+| **Identity**        | `is`, `is not`         | Compare memory location of objects                              | `x is y` (True if `x` and `y` refer to the same object) |
+| **Membership**      | `in`, `not in`         | Check if a value exists within a sequence                       | `'a' in ['a', 'b', 'c']` (Result: `True`) |
+
+## Examples
+
+### Arithmetic Operators
+
+- **Addition**: `5 + 3` (Result: `8`)
+- **Subtraction**: `10 - 4` (Result: `6`)
+- **Multiplication**: `2 * 6` (Result: `12`)
+- **Division**: `10 / 3` (Result: `3.3333`)
+- **Modulus**: `10 % 3` (Result: `1`)
+- **Floor Division**: `10 // 3` (Result: `3`)
+- **Exponentiation**: `2 ** 3` (Result: `8`)
+
+### Comparison Operators
+
+- **Equal to**: `5 == 5` (Result: `True`)
+- **Not equal to**: `10 != 5` (Result: `True`)
+- **Greater than**: `10 > 5` (Result: `True`)
+- **Less than or equal to**: `3 <= 3` (Result: `True`)
+
+### Logical Operators
+
+- **AND**: `True and False` (Result: `False`)
+- **OR**: `True or False` (Result: `True`)
+- **NOT**: `not True` (Result: `False`)
+
+### Assignment Operators
+
+- **Assignment**: `x = 10`
+- **Increment**: `x += 1` (Equivalent to `x = x + 1`)
+- **Decrement**: `x -= 1` (Equivalent to `x = x - 1`)
+
+### Bitwise Operators
+
+- **AND**: `5 & 3` (Result: `1`)
+- **OR**: `5 | 3` (Result: `7`)
+- **XOR**: `5 ^ 3` (Result: `6`)
+- **NOT**: `~5` (Result: `-6`)
+- **Left Shift**: `5 << 1` (Result: `10`)
+- **Right Shift**: `5 >> 1` (Result: `2`)
+
+### Identity Operators
+
+- **is**: `x is y` (True if `x` and `y` refer to the same object)
+- **is not**: `x is not y` (True if `x` and `y` do not refer to the same object)
+
+### Membership Operators
+
+- **in**: `'a' in ['a', 'b', 'c']` (Result: `True`)
+- **not in**: `'d' not in ['a', 'b', 'c']` (Result: `True`)
+
 
 <img width="750" alt="image" src="https://github.com/karthikputtoju/Python_Tutorial/assets/37204779/91362dbb-bbbb-47d1-af04-8d7b92f7a32b">
 
@@ -106,7 +165,6 @@ print('banana' in fruits)   # Output: True
 
 Strings in Python are sequences of characters enclosed within quotes (either single `'` or double `"` quotes). They are immutable, meaning once defined, their values cannot be changed.
 Strings in Python are immutable sequences of characters:
-
 ```python
 #Creating strings
 message = "Hello, World!"
@@ -122,33 +180,37 @@ last_name = full_name[5:]   # 'Doe'
 uppercase_name = full_name.upper()
 ```
 
-## Lists, Tuples, Dictionaries, Sets, and Comprehensions
+## Python Data Structures and Comprehensions
 
-## Lists
+| Data Structure            | Description                                                                                   | Example                                 |
+|---------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------|
+| **Lists**                 | Ordered collection of elements. Mutable (can be changed after creation).                      | `[1, 2, 3, 4, 5]`                        |
+| **Tuples**                | Ordered collection of elements. Immutable (cannot be changed after creation).                 | `(1, 2, 3)`                              |
+| **Dictionaries**          | Unordered collection of key-value pairs. Mutable and indexed by keys (unique).                | `{'name': 'Alice', 'age': 30}`           |
+| **Sets**                  | Unordered collection of unique elements. Mutable and does not allow duplicate elements.       | `{1, 2, 3, 4, 5}`                        |
+| **Comprehensions**        | Concise way to create lists, dictionaries, or sets based on existing iterables.               | `[x**2 for x in range(1, 6)]`            |
+
+### Lists
 Lists are ordered collections that can hold elements of different data types. They are mutable, meaning their elements can be changed after creation.
-
+- **Creating a List**: `my_list = [1, 2, 3, 4, 5]`
+- **Accessing Elements**: `first_element = my_list[0]` (Result: `1`)
+- **List Methods**: `my_list.append(6)` (Adds `6` to `my_list`)
 #### Creating Lists
-
 ```python
 # Creating lists
 my_list = [1, 2, 3, 4, 5]
 names = ["Alice", "Bob", "Charlie"]
 mixed_list = [1, "Alice", True, 3.14]
 ```
-
 #### Accessing elements
-
 Elements in a list are accessed using indexing (starting from 0):
-
 ```python
 # Accessing elements
 first_element = my_list[0]    # 1
 last_element = my_list[-1]    # 5
 ```
 #### List Methods
-
 Python provides built-in methods to manipulate lists:
-
 ```python
 # Adding elements
 my_list.append(6)       # [1, 2, 3, 4, 5, 6]
@@ -162,11 +224,8 @@ my_list.remove(3)       # Removes the first occurrence of 3
 len(my_list)            # Length of the list
 sorted_list = sorted(my_list)  # Returns a sorted copy of the list
 ```
-
 #### List Comprehensions
-
 List comprehensions provide a concise way to create lists:
-
 ```python
 # List comprehension
 squares = [x**2 for x in range(1, 6)]  # [1, 4, 9, 16, 25]
@@ -174,29 +233,26 @@ squares = [x**2 for x in range(1, 6)]  # [1, 4, 9, 16, 25]
 # Conditional list comprehension
 even_numbers = [x for x in range(10) if x % 2 == 0]  # [0, 2, 4, 6, 8]
 ```
-
-## Tuples
+### Tuples
 Tuples are ordered collections that are immutable, meaning their elements cannot be changed after creation.
-
+- **Creating a Tuple**: `my_tuple = (1, 2, 3)`
+- **Accessing Elements**: `second_element = my_tuple[1]` (Result: `2`)
+- **Tuple Methods**: Few methods due to immutability, e.g., `len(my_tuple)` (Length of tuple)
 #### Creating Tuples
 ```python
 # Creating tuples
 my_tuple = (1, 2, 3)
 coordinates = (4.5, 6.7)
 ```
-
 #### Accessing Elements
 Elements in a tuple are accessed using indexing:
-
 ```python
 # Accessing elements
 first_element = my_tuple[0]    # 1
 second_element = my_tuple[1]   # 2
 ```
-
 ##### Tuple Methods
 Tuples have fewer methods compared to lists due to their immutability:
-
 ```python
 # Tuple length
 len(my_tuple)           # Length of the tuple
@@ -204,27 +260,24 @@ len(my_tuple)           # Length of the tuple
 # Tuple unpacking
 x, y, z = my_tuple      # Unpacks elements into variables
 ```
-
-## Dictionaries
+### Dictionaries
 Dictionaries are unordered collections of key-value pairs. They are mutable and can hold elements of different data types.
-
+- **Creating a Dictionary**: `person = {'name': 'Alice', 'age': 30}`
+- **Accessing Elements**: `person_name = person['name']` (Result: `'Alice'`)
+- **Dictionary Methods**: `person['city'] = 'New York'` (Adds key-value pair)
 #### Creating dictionaries
 ```python
 person = {'name': 'Alice', 'age': 30, 'city': 'New York'}
 ```
-
 #### Accessing Elements
 Elements in a dictionary are accessed using keys:
-
 ```python
 # Accessing elements
 person_name = person['name']    # 'Alice'
 person_age = person.get('age')  # 30
 ```
-
 #### Dictionary Methods
 Python provides built-in methods to manipulate dictionaries:
-
 ```python
 # Adding or updating elements
 person['email'] = 'alice@example.com'
@@ -237,9 +290,11 @@ len(person)             # Number of items in the dictionary
 keys = person.keys()    # Returns a view object of dictionary keys
 values = person.values()  # Returns a view object of dictionary values
 ```
-
-## Sets
+### Sets
 Sets are unordered collections of unique elements. They are mutable but do not allow duplicate elements.
+- **Creating a Set**: `my_set = {1, 2, 3, 4, 5}`
+- **Set Operations**: `my_set.add(6)` (Adds `6` to `my_set`)
+- **Set Methods**: `my_set.remove(3)` (Removes `3` from `my_set`)
 
 #### Creating Sets
 ```python
@@ -247,10 +302,8 @@ Sets are unordered collections of unique elements. They are mutable but do not a
 my_set = {1, 2, 3, 4, 5}
 unique_characters = set('hello')
 ```
-
 #### Set Operations
 Python sets support various operations:
-
 ```python
 # Adding elements
 my_set.add(6)           # {1, 2, 3, 4, 5, 6}
@@ -262,10 +315,11 @@ my_set.remove(3)        # {1, 2, 4, 5}
 union_set = my_set.union({4, 5, 6})   # {1, 2, 4, 5, 6}
 intersection_set = my_set.intersection({2, 3, 4})  # {2, 4}
 ```
-
-## Comprehensions
+### Comprehensions
+- **List Comprehension**: `[x**2 for x in range(1, 6)]` (Result: `[1, 4, 9, 16, 25]`)
+- **Set Comprehension**: `{x for x in range(10) if x % 2 == 0}` (Result: `{0, 2, 4, 6, 8}`)
+- **Dictionary Comprehension**: `{fruit: len(fruit) for fruit in ['apple', 'banana', 'cherry']}`
 Comprehensions provide a concise way to create lists, dictionaries, and sets:
-
 ```python
 # List comprehension
 squares = [x**2 for x in range(10)]
