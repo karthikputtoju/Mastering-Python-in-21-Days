@@ -1,6 +1,5 @@
-# Python Tutorial Repository
-
-Welcome to the Python Learning Repository! This repository is designed to help you learn Python from basics to advanced topics. It includes notes, code examples, and exercises to practice what you've learned.
+# Python Tutorial
+Welcome to the Python Learning Repository! This repository is designed to help you learn Python from basics to advanced topics. It includes notes, code examples, and exercises to practice your learning.
 
 ## Table of Contents
 
