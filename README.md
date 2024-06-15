@@ -35,7 +35,7 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Using Python interpreter
 - Basic syntax and variables
 - Writing your first Python program
-
+[Read more](introduction_to_python.md)
 ---
 
 ## Core Concepts
@@ -47,7 +47,7 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - Operators (arithmetic, logical, comparison)
 - Strings and string manipulation
 - Lists, tuples, dictionaries, sets, and comprehensions
-
+[Read more](coreconcepts.md)
 ---
 
 ## Control Flow
@@ -59,7 +59,7 @@ Welcome to the Python Tutorial repository! This repository is designed to help y
 - for loops and while loops
 - Loop control statements (break, continue)
 - Nested loops and loop else clauses
-
+[Read more](controlflow.md)
 ---
 
 ## Functions
