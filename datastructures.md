@@ -71,7 +71,7 @@ unique_numbers = {1, 2, 3, 4, 5}
 unique_numbers.add(6)      # Adding element to set
 unique_numbers.remove(3)   # Removing element from set
 ```
-#### Set Operations
+### Set Operations
 ```python
 # Set operations
 set1 = {1, 2, 3}
