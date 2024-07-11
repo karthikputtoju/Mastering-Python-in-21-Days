@@ -28,11 +28,8 @@ Modules and packages are used to:
 
 ## Diagrams
 
-### Module Import Diagram
-![Module Import Diagram](images/module_import_diagram.png)
-
-### Package Structure Diagram
-![Package Structure Diagram](images/package_structure_diagram.png)
+### Module Import Diagram & Package Structure Diagram
+![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/5e085072-f56f-450b-a595-649cd1674b53)
 
 ## Syntax
 ```python
