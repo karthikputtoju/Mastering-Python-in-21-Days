@@ -118,16 +118,16 @@ print("PI:", PI)
   - PI is defined as a constant with the value 3.14159 and used in the program.
 
 ## Key Points to Remember
-- Variables are created by assignment and do not need explicit declaration.
-- Python supports various data types, including int, float, str, and bool.
-- Use the type() function to check the data type of a variable.
-- Type conversion can be performed using functions like int(), float(), and str().
-- Constants are typically represented using uppercase names.
+1. Variables are created by assignment and do not need explicit declaration.
+2. Python supports various data types, including int, float, str, and bool.
+3. Use the type() function to check the data type of a variable.
+4. Type conversion can be performed using functions like int(), float(), and str().
+5. Constants are typically represented using uppercase names.
 
 ## Quick Summary
-- Variables store data values, and data types define the kind of data stored. 
-- Python automatically assigns data types based on the value assigned to a variable. 
-- Type conversion allows you to change data types when necessary, and constants are used for fixed values.
+1. Variables store data values, and data types define the kind of data stored.
+2. Python automatically assigns data types based on the value assigned to a variable.
+3. Type conversion allows you to change data types when necessary, and constants are used for fixed values.
 
 ## Quiz
 1. How do you declare a variable in Python?
@@ -137,47 +137,47 @@ print("PI:", PI)
 5. What is a constant, and how is it typically represented in Python?
 
 ## Labs
-Lab 2.1: Create Variables
-Objective: Create variables of different data types and print their values and types.
+1. Lab 2.1: Create Variables
+   Objective: Create variables of different data types and print their values and types.
 
-Instructions:
+   Instructions:
 
-Create variables for an integer, a float, a string, and a boolean.
-Print the values and types of these variables.
+   Create variables for an integer, a float, a string, and a boolean.
+   Print the values and types of these variables.
 
-```python
-# Lab 2.1 Code
-age = 25
-height = 5.9
-city = "New York"
-is_employee = True
+    ```python
+    # Lab 2.1 Code
+    age = 25
+    height = 5.9
+    city = "New York"
+    is_employee = True
+    
+    print("Age:", age, "Type:", type(age))
+    print("Height:", height, "Type:", type(height))
+    print("City:", city, "Type:", type(city))
+    print("Is Employee:", is_employee, "Type:", type(is_employee))
+    ```
 
-print("Age:", age, "Type:", type(age))
-print("Height:", height, "Type:", type(height))
-print("City:", city, "Type:", type(city))
-print("Is Employee:", is_employee, "Type:", type(is_employee))
-```
+2. Lab 2.2: Type Conversion
+   Objective: Perform type conversion between different data types and observe the results.
 
-Lab 2.2: Type Conversion
-Objective: Perform type conversion between different data types and observe the results.
+   Instructions:
 
-Instructions:
+   Convert a float to an integer and print the result.
+   Convert an integer to a string and print the result.
+   Convert a string to a float and print the result.
 
-Convert a float to an integer and print the result.
-Convert an integer to a string and print the result.
-Convert a string to a float and print the result.
-
-```python
-# Lab 2.2 Code
-float_value = 10.99
-int_value = int(float_value)  # Convert float to int
-print("Converted int:", int_value)
-
-int_value = 100
-str_value = str(int_value)    # Convert int to string
-print("Converted string:", str_value)
-
-str_value = "123.45"
-float_value = float(str_value)  # Convert string to float
-print("Converted float:", float_value)
-```
+    ```python
+    # Lab 2.2 Code
+    float_value = 10.99
+    int_value = int(float_value)  # Convert float to int
+    print("Converted int:", int_value)
+    
+    int_value = 100
+    str_value = str(int_value)    # Convert int to string
+    print("Converted string:", str_value)
+    
+    str_value = "123.45"
+    float_value = float(str_value)  # Convert string to float
+    print("Converted float:", float_value)
+    ```
