@@ -177,7 +177,7 @@ Advanced functions like lambda functions, map, filter, reduce, list comprehensio
 	squares = [x ** 2 for x in range(1, 11)]
 	print(squares)  # Output: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 	```
-Lab 15.4: Decorator
+4. Lab 15.4: Decorator
 	Objective: Implement a decorator that logs the execution time of a function.
 	
 	Instructions:
