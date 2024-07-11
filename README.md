@@ -1,288 +1,70 @@
 # Python Tutorial
 
-Welcome to the Python Tutorial repository! This repository is designed to help you learn Python programming from the basics to advanced topics and practical applications.
+# Mastering Python in 21 Days
+
+Welcome to the "Mastering Python in 21 Days" repository! This project contains a comprehensive guide to Python programming and API automation with pytest. It includes detailed notes, diagrams, and exercises designed to help you become proficient in Python and automated testing.
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Core Concepts](#core-concepts)
-3. [Control Flow](#control-flow)
-4. [Functions](#functions)
-5. [Data Structures](#data-structures)
-6. [File Handling](#file-handling)
-7. [Exception Handling](#exception-handling)
-8. [Object-Oriented Programming](#object-oriented-programming)
-9. [Modules and Packages](#modules-and-packages)
-10. [Advanced Topics](#advanced-topics)
-11. [Concurrency](#concurrency)
-12. [Networking](#networking)
-13. [Database Access](#database-access)
-14. [Web Scraping](#web-scraping)
-15. [GUI Programming](#gui-programming)
-16. [Data Analysis](#data-analysis)
-17. [Machine Learning](#machine-learning)
-18. [Projects](#projects)
+- [Day 1: Introduction to Python](notes/day1/introduction.md)
+- [Day 2: Variables and Data Types](notes/day2/variables_and_data_types.md)
+- [Day 3: Control Structures](notes/day3/control_structures.md)
+- [Day 4: Functions](notes/day4/functions.md)
+- [Day 5: Modules and Packages](notes/day5/modules_and_packages.md)
+- [Day 6: File Handling](notes/day6/file_handling.md)
+- [Day 7: Error Handling](notes/day7/error_handling.md)
+- [Day 8: Object-Oriented Programming](notes/day8/oop.md)
+- [Day 9: More on OOP](notes/day9/more_oop.md)
+- [Day 10: Advanced Python Features](notes/day10/advanced_features.md)
+- [Day 11: Libraries and Frameworks](notes/day11/libraries_and_frameworks.md)
+- [Day 12: Introduction to API Automation](notes/day12/api_automation.md)
+- [Day 13: API Requests](notes/day13/api_requests.md)
+- [Day 14: API Responses](notes/day14/api_responses.md)
+- [Day 15: Advanced Functions](notes/day15/advanced_functions.md)
+- [Day 16: Modules and Packages](notes/day16/modules_and_packages.md)
+- [Day 17: Working with APIs](notes/day17/working_with_apis.md)
+- [Day 18: Introduction to pytest](notes/day18/introduction_to_pytest.md)
+- [Day 19: Advanced pytest Features](notes/day19/advanced_pytest_features.md)
+- [Day 20: API Testing with pytest](notes/day20/api_testing_with_pytest.md)
+- [Day 21: Final Review and Mini Project](notes/day21/final_review_and_mini_project.md)
 
----
+## Overview
 
-## Introduction
+This repository is structured into 21 days of learning, each covering different aspects of Python programming and testing. Each day includes:
 
-### Basics of Python programming and its significance
+- **Definitions and Concepts**: Clear explanations of the concepts covered.
+- **Diagrams**: Visual aids to help understand the topics.
+- **Code Examples**: Sample code to demonstrate concepts.
+- **Key Points**: Important takeaways and summaries.
+- **Quizzes and Labs**: Practice questions and hands-on exercises.
 
-- What is Python?
-- History and significance of Python
-- Installing Python
-- Using Python interpreter
-- Basic syntax and variables
-- Writing your first Python program
-- [Read more](introduction_to_python.md)
-  
----
+## Getting Started
 
-## Core Concepts
-
-### Data types, variables, operators, and basic syntax
-
-- Data types (int, float, str, etc.)
-- Variables and constants
-- Operators (arithmetic, logical, comparison)
-- Strings and string manipulation
-- Lists, tuples, dictionaries, sets, and comprehensions
-- [Read more](coreconcepts.md)
-  
----
-
-## Control Flow
-
-### Conditional statements (if, elif, else) and loops
-
-- if statements
-- elif and else statements
-- for loops and while loops
-- Loop control statements (break, continue)
-- Nested loops and loop else clauses
-- [Read more](controlflow.md)
-  
----
-
-## Functions
-
-### Defining functions and using built-in functions
-
-- Defining functions with `def`
-- Function parameters and arguments
-- Return statements and returning values
-- Scope and lifetime of variables
-- Lambda functions and anonymous functions
-- [Read more](functions.md)
-  
----
-
-## Data Structures
-
-### Lists, tuples, dictionaries, sets, and comprehensions
-
-- Lists: creating, accessing elements, slicing
-- Tuples: creating, accessing elements, immutability
-- Dictionaries: creating, accessing elements, iterating
-- Sets: creating, modifying, operations
-- List comprehensions, dictionary comprehensions, set comprehensions
-- [Read more](datastructures.md)
-  
----
-
-## File Handling
-
-### Reading from and writing to files
-
-- Opening and closing files
-- Reading and writing text files
-- Working with file paths and directories
-- Error handling and exceptions in file operations
-- Context managers and the `with` statement
-- [Read more](filehandling.md)
-  
----
-
-## Exception Handling
-
-### Handling errors and exceptions
-
-- Types of exceptions and error handling
-- try, except, else, and finally blocks
-- Raising exceptions and custom exceptions
-- Handling specific exceptions
-- Exception chaining and traceback information
-- [Read more](exceptionhandling.md)
-  
----
-
-## Object-Oriented Programming
-
-### Classes, objects, inheritance, and polymorphism
-
-- Defining classes and creating objects
-- Class attributes and instance attributes
-- Inheritance and method overriding
-- Polymorphism and method overloading
-- Class methods, static methods, and properties
-- [Read more](oops.md)
-  
----
-
-## Modules and Packages
-
-### Importing modules and organizing code
-
-- Creating and using modules
-- Packages and the module hierarchy
-- Importing from standard library modules
-- Relative imports and absolute imports
-- Organizing large projects with modules and packages
-- [Read more](modulesandpackages.md)
-  
----
-
-## Advanced Topics
-
-### Decorators, generators, context managers, and closures
-
-- Decorators: function decorators and class decorators
-- Generators and iterators
-- Context managers and the `contextlib` module
-- Closures and nested functions
-- Meta-programming and `__getattr__`, `__setattr__` methods
-- [Read more](advancedtopics.md)
-  
----
-
-## Concurrency
-
-### Threading and multiprocessing
-
-- Threads vs Processes
-- Using the `threading` module for threading
-- Synchronization and locks
-- Using the `multiprocessing` module for multiprocessing
-- Shared resources and inter-process communication
-- [Read more](concurrency.md)
-  
----
-
-## Networking
-
-### Basics of sockets and making HTTP requests
-
-- Introduction to sockets and network communication
-- Using the `socket` module for TCP and UDP connections
-- Making HTTP requests using `requests` module
-- Handling responses and status codes
-- Working with JSON data and APIs
-- [Read more](networking.md)
-  
----
-
-## Database Access
-
-### Working with SQLite and basic SQL queries
-
-- Introduction to SQLite and SQL basics
-- Creating databases and tables
-- Inserting, querying, updating, and deleting data
-- Using transactions and handling errors
-- ORM (Object-Relational Mapping) with SQLAlchemy
-- [Read more](datatabaseaccess.md)
-  
----
-
-## Web Scraping
-
-### Using BeautifulSoup for parsing HTML
-
-- Introduction to web scraping
-- Parsing HTML documents with BeautifulSoup
-- Navigating and searching the HTML tree
-- Extracting data from web pages
-- Handling dynamic content and AJAX requests
-- [Read more](webscraping.md)
-  
----
-
-## GUI Programming
-
-### Introduction to Tkinter for creating graphical interfaces
-
-- Basics of GUI programming and event-driven programming
-- Creating windows and widgets with Tkinter
-- Layout management with grid, pack, and place
-- Handling user input and events
-- Building simple applications with Tkinter
-- [Read more](guiprogramming.md)
----
-
-## Data Analysis
-
-### Using Pandas and NumPy for data manipulation and analysis
-
-- Introduction to data analysis with Python
-- Working with data using Pandas DataFrames
-- Data cleaning, manipulation, and transformation
-- Performing statistical analysis and visualization
-- Reading and writing data to different formats (CSV, Excel, etc.)
-- [Read more](dataanalysis.md)
----
-
-## Machine Learning
-
-### Basics of scikit-learn for machine learning tasks
-
-- Introduction to machine learning and scikit-learn
-- Supervised learning: classification and regression
-- Unsupervised learning: clustering and dimensionality reduction
-- Model evaluation and cross-validation
-- Building and deploying machine learning models
-- [Read more](machinelearning.md)
-  
+1. **Clone the Repository:**
+   ```python
+   git clone https://github.com/yourusername/Mastering-Python-in-21-Days.git
+   ```  
 ---
 
 ## Projects
 
 ### Hands-on projects to apply Python skills
 
-- **Calculator**: Simple calculator application - [Read more](calculatorproject.md)
-- **Todo List**: Basic task management application - [Read more](todolistproject.md)
-- **Web Scraper**: Scraping data from websites - [Read more](webscraperproject.md)
-- **Chatbot**: Creating a chatbot using natural language processing - [Read more](chatbotproject.md)
-- **RESTful API**: Building a simple API server - [Read more](apiproject.md)
-- **Data Analysis Project**: Analyzing a dataset using Pandas and visualizing insights - [Read more](dataproject.md)
+- **Mini Project**: Simple Calculator
+- **Mini Project**: Library Management System
+- **Major Project**: Automated API Testing Suite
 
 ---
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
+Contributions are welcome! If you have suggestions, corrections, or additional content to add, please fork the repository and create a pull request.
 
 ## License
 
 This repository is licensed under the MIT License. See the LICENSE file for more details.
 
-### Explanation:
+## Contact
 
-- **Table of Contents**: Organize the README into sections corresponding to the topics covered in the Python tutorial table.
-- **Sections**: Each section provides a brief overview of the topic and outlines key concepts and learning objectives.
-- **Projects Section**: Highlights hands-on projects where learners can apply their Python skills.
-- **Contributions and License**: Encourages contributions and specifies the licensing information for the repository.
-- **Getting Started**: Provides instructions for cloning the repository and getting started with the tutorial.
-  
-### Info:
-
-- This README.md template serves as a comprehensive guide and introduction to the Python tutorial repository, making it easier for learners to navigate and engage with the content effectively. Adjustments can be made based on specific tutorial requirements or additional topics/extensions.
-  
-## Getting Started
-
-To get started with the tutorial, clone this repository:
-
-```bash
-git clone https://github.com/karthikputtoju/Python_Tutorial.git
-cd Python-Tutorial
+For any questions or feedback, feel free to reach out at pkarthik.qa@gmail.com
 
