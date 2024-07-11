@@ -93,14 +93,15 @@ Functions are crucial for code reuse and organization. They are defined with the
 	Define a function named average that takes a list of numbers as an argument.
 	Calculate the average of the numbers and return it.
 	Test the function with a sample list.
-```python
-# Lab 4.1 Code
-def average(numbers):
-    return sum(numbers) / len(numbers)
-
-numbers_list = [10, 20, 30, 40, 50]
-avg = average(numbers_list)
-print("Average:", avg)
+	```python
+	# Lab 4.1 Code
+	def average(numbers):
+	    return sum(numbers) / len(numbers)
+	
+	numbers_list = [10, 20, 30, 40, 50]
+	avg = average(numbers_list)
+	print("Average:", avg)
+ 	```
 2. Lab 4.2: Check Even Number
 	Objective: Write a lambda function that checks if a number is even.
 
@@ -108,10 +109,10 @@ print("Average:", avg)
 
 	Define a lambda function named is_even that takes a number and returns True if it is even, False otherwise.
 	Test the lambda function with different numbers.
-```python
-# Lab 4.2 Code
-is_even = lambda x: x % 2 == 0
-
-print(is_even(4))  # Output: True
-print(is_even(7))  # Output: False
-```
+	```python
+	# Lab 4.2 Code
+	is_even = lambda x: x % 2 == 0
+	
+	print(is_even(4))  # Output: True
+	print(is_even(7))  # Output: False
+	```
