@@ -44,4 +44,45 @@ Python is used in various fields, including:
 ```python
 # Python syntax example
 print("Hello, World!")
+```
 
+## Example Code
+```python
+# Simple Python program
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))
+```
+
+## Explanation Code Step by Step
+1. Defining a Function: def greet(name): defines a function named greet that takes a single argument name.
+2. Return Statement: return f"Hello, {name}!" returns a formatted string that includes the name passed to the function.
+3. Calling the Function: print(greet("Alice")) calls the greet function with the argument "Alice" and prints the result.
+
+## Key Points to Remember
+1. Python is interpreted, meaning code is executed line by line.
+2. Python uses indentation to define code blocks, which improves readability.
+3. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+
+## Quick Summary
+Python is a versatile, high-level programming language known for its readability and wide range of applications. Installation is straightforward, and numerous IDEs are available to facilitate coding.
+
+## Quiz
+1. What is Python?
+2. Name two applications of Python.
+3. How does Python define code blocks?
+
+## Labs
+1. Lab 1.1: Install Python
+   Follow the installation guide on the official Python website to install Python on your machine.
+
+2. Lab 1.2: Write and Run a Simple Python Program
+   Create a Python script that prints your name using the following code:
+   ```python
+   print("Your Name")
+   ```
+   Save the file as hello.py and run it using the command:
+   ```python
+   python hello.py
+   ```
