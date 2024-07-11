@@ -97,11 +97,10 @@ with open('example.txt', 'r') as file:
 	- print(line.strip()) prints each line after stripping leading/trailing whitespace.
 
 ## Key Points to Remember
-1. File Modes:
-	- 'r' for reading.
-	- 'w' for writing (overwrites the file).
-	- 'a' for appending (adds to the file).
-2. Context Managers: Use the with statement to handle file operations, ensuring that files are properly closed after their suite finishes.
+1. Use open() to open files and close() to close them.
+2. Common file modes: 'r' (read), 'w' (write), 'a' (append).
+3. Context managers (with statement) ensure files are properly closed.
+4. Use read(), readline(), and readlines() for reading from files.
 
 ## Quick Summary
 File handling involves opening, reading from, writing to, and closing files. The open() function is used to access files, and context managers (with statement) help in managing resources efficiently. Understanding file methods and modes is key to effective file manipulation.
