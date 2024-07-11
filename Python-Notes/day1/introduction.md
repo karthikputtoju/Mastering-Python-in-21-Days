@@ -39,7 +39,8 @@ Python is used in various fields, including:
 
 
 ### Python Version History Timeline
-![Python Version History Timeline](images/python_version_history_timeline.png)
+![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/4ac8a08c-909a-4f81-b747-a4219f6d75da)
+
 
 ## Syntax
 ```python
