@@ -16,7 +16,7 @@ Welcome to the "Mastering Python in 21 Days" repository! This project contains a
 - [Day 10: Advanced Python Features](notes/day10/advanced_features.md)
 - [Day 11: Libraries and Frameworks](notes/day11/libraries_and_frameworks.md)
 - [Day 12: Introduction to API Automation](notes/day12/api_automation.md)
-- [Day 13: API Requests](notes/day13/api_requests.md)
+- [Day 13: Database Operations](notes/day13/database_operations.md)
 - [Day 14: API Responses](notes/day14/api_responses.md)
 - [Day 15: Advanced Functions](notes/day15/advanced_functions.md)
 - [Day 16: Modules and Packages](notes/day16/modules_and_packages.md)
