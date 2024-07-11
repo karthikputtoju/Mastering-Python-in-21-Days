@@ -33,7 +33,8 @@ Error handling is used in:
 ## Diagrams
 
 ### Exception Handling Flow Diagram
-![Exception Handling Flow Diagram](images/exception_handling_flow_diagram.png)
+![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/f1d994b2-3775-4190-ab44-901564b02c7c)
+
 
 ### Custom Exception Hierarchy Diagram
 ![Custom Exception Hierarchy Diagram](images/custom_exception_hierarchy_diagram.png)
