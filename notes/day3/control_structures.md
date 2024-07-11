@@ -101,35 +101,35 @@ Control structures direct the flow of execution in a program. Conditional statem
 
 ## Labs
 1. Lab 3.1: Conditional Statements
-Objective: Write a program that uses conditional statements to check if a number is positive, negative, or zero.
+   Objective: Write a program that uses conditional statements to check if a number is positive, negative, or zero.
 
-Instructions:
+   Instructions:
 
-Prompt the user to enter a number.
-Use conditional statements to check if the number is positive, negative, or zero.
-Print the result.
-```python
-# Lab 3.1 Code
-number = float(input("Enter a number: "))
-
-if number > 0:
-    print("The number is positive.")
-elif number < 0:
-    print("The number is negative.")
-else:
-    print("The number is zero.")
-```
+   Prompt the user to enter a number.
+   Use conditional statements to check if the number is positive, negative, or zero.
+   Print the result.
+	```python
+	# Lab 3.1 Code
+	number = float(input("Enter a number: "))
+	
+	if number > 0:
+	    print("The number is positive.")
+	elif number < 0:
+	    print("The number is negative.")
+	else:
+	    print("The number is zero.")
+	```
 2. Lab 3.2: Looping Through Numbers
-Objective: Write a program that prints all even numbers between 1 and 20 using a loop.
+   Objective: Write a program that prints all even numbers between 1 and 20 using a loop.
 
-Instructions:
+   Instructions:
 
-Use a for loop to iterate through numbers from 1 to 20.
-Print the even numbers.
-```python
-# Lab 3.2 Code
-for num in range(1, 21):
-    if num % 2 == 0:
-        print(num)
-```
+   Use a for loop to iterate through numbers from 1 to 20.
+   Print the even numbers.
+	```python
+	# Lab 3.2 Code
+	for num in range(1, 21):
+	    if num % 2 == 0:
+	        print(num)
+	```
 
