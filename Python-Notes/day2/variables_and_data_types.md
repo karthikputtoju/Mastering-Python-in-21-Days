@@ -41,11 +41,8 @@
 
 ## Diagrams
 
-### Variable Assignment Diagram
-![Variable Assignment Diagram](images/variable_assignment_diagram.png)
-
-### Data Type Classification Diagram
-![Data Type Classification Diagram](images/data_type_classification_diagram.png)
+### Variable & Data Type Classification Diagram
+![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/a7c3e060-2571-4bb9-bc02-3673a54b8ad9)
 
 ## Syntax
 ```python
