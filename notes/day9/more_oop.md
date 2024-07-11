@@ -174,69 +174,69 @@ Encapsulation, abstraction, overriding, class methods, and static methods are ad
 
 ## Labs
 1. Lab 9.1: Create a Class BankAccount
-Objective: Create a class BankAccount with private attributes balance and methods to deposit, withdraw, and get balance using encapsulation.
+   Objective: Create a class BankAccount with private attributes balance and methods to deposit, withdraw, and get balance using encapsulation.
 
-Instructions:
+   Instructions:
 
-Define the BankAccount class with a private attribute __balance.
-Implement methods to deposit, withdraw, and get balance.
-```python
-class BankAccount:
-    def __init__(self):
-        self.__balance = 0
-
-    def deposit(self, amount):
-        if amount > 0:
-            self.__balance += amount
-
-    def withdraw(self, amount):
-        if 0 < amount <= self.__balance:
-            self.__balance -= amount
-
-    def get_balance(self):
-        return self.__balance
-
-# Test the BankAccount class
-account = BankAccount()
-account.deposit(100)
-account.withdraw(50)
-print(account.get_balance())  # Output: 50
-```
+   Define the BankAccount class with a private attribute __balance.
+   Implement methods to deposit, withdraw, and get balance.
+   	```python
+	class BankAccount:
+	    def __init__(self):
+	        self.__balance = 0
+	
+	    def deposit(self, amount):
+	        if amount > 0:
+	            self.__balance += amount
+	
+	    def withdraw(self, amount):
+	        if 0 < amount <= self.__balance:
+	            self.__balance -= amount
+	
+	    def get_balance(self):
+	        return self.__balance
+	
+	# Test the BankAccount class
+	account = BankAccount()
+	account.deposit(100)
+	account.withdraw(50)
+	print(account.get_balance())  # Output: 50
+	```
 2. Lab 9.2: Implement an Abstract Class Shape
-Objective: Implement an abstract class Shape with a method area(). Create subclasses Circle and Rectangle and override the area() method in each.
+   Objective: Implement an abstract class Shape with a method area(). Create subclasses Circle and Rectangle and override the area() method in each.
 
-Instructions:
+   Instructions:
 
-Define the abstract class Shape with an abstract method area().
-Create the Circle subclass with a specific implementation of area().
-Create the Rectangle subclass with a specific implementation of area().
-```python
-from abc import ABC, abstractmethod
-
-class Shape(ABC):
-    @abstractmethod
-    def area(self):
-        pass
-
-class Circle(Shape):
-    def __init__(self, radius):
-        self.radius = radius
-
-    def area(self):
-        return 3.14 * (self.radius ** 2)
-
-class Rectangle(Shape):
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-
-    def area(self):
-        return self.width * self.height
-
-# Test the Shape subclasses
-circle = Circle(5)
-rectangle = Rectangle(4, 6)
-
-print(circle.area())  # Output: 78.5
-print(rectangle.area())  # Output: 24
-```
+   Define the abstract class Shape with an abstract method area().
+   Create the Circle subclass with a specific implementation of area().
+   Create the Rectangle subclass with a specific implementation of area().
+	```python
+	from abc import ABC, abstractmethod
+	
+	class Shape(ABC):
+	    @abstractmethod
+	    def area(self):
+	        pass
+	
+	class Circle(Shape):
+	    def __init__(self, radius):
+	        self.radius = radius
+	
+	    def area(self):
+	        return 3.14 * (self.radius ** 2)
+	
+	class Rectangle(Shape):
+	    def __init__(self, width, height):
+	        self.width = width
+	        self.height = height
+	
+	    def area(self):
+	        return self.width * self.height
+	
+	# Test the Shape subclasses
+	circle = Circle(5)
+	rectangle = Rectangle(4, 6)
+	
+	print(circle.area())  # Output: 78.5
+	print(rectangle.area())  # Output: 24
+	```
