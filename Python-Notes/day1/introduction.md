@@ -35,7 +35,8 @@ Python is used in various fields, including:
 ## Diagrams
 
 ### Python Ecosystem Diagram
-![Python Ecosystem Diagram](images/python_ecosystem_diagram.png)
+![Python Ecosystem Diagram]
+![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/f30e9745-fbae-46e6-86cd-32a077949b91)
 
 ### Python Version History Timeline
 ![Python Version History Timeline](images/python_version_history_timeline.png)
