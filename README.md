@@ -1,5 +1,3 @@
-# Python Tutorial
-
 # Mastering Python in 21 Days
 
 Welcome to the "Mastering Python in 21 Days" repository! This project contains a comprehensive guide to Python programming and API automation with pytest. It includes detailed notes, diagrams, and exercises designed to help you become proficient in Python and automated testing.
@@ -42,19 +40,16 @@ This repository is structured into 21 days of learning, each covering different 
 
 1. **Clone the Repository:**
    ```python
-   git clone https://github.com/yourusername/Mastering-Python-in-21-Days.git
+   git clone https://github.com/karthikputtoju/Mastering-Python-in-21-Days.git
    ```  
----
 
 ## Projects
 
 ### Hands-on projects to apply Python skills
 
-- **Mini Project**: Simple Calculator
-- **Mini Project**: Library Management System
+- **Mini Project**:  Simple Calculator
+- **Mini Project**:  Library Management System
 - **Major Project**: Automated API Testing Suite
-
----
 
 ## Contributing
 
