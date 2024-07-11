@@ -151,3 +151,4 @@ The final review helps consolidate knowledge, while the mini project provides pr
 	Document the project, including setup instructions and usage.
 	
 	Note: Try some more mini and main projects to gain good knowledge & experience. 
+## Thanks and Happy Learning
