@@ -27,7 +27,8 @@ Control structures are used in nearly every program to handle decision-making pr
 ## Diagrams
 
 ### Flowchart of Conditional Statements
-![Flowchart of Conditional Statements](images/flowchart_conditional_statements.png)
+![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/2be0e4aa-96c5-426f-8986-fc1a6815baf9)
+
 
 ### Loop Structure Diagram
 ![Loop Structure Diagram](images/loop_structure_diagram.png)
