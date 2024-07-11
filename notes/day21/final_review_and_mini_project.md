@@ -149,4 +149,5 @@ The final review helps consolidate knowledge, while the mini project provides pr
 	Design the application architecture and plan the implementation stages.
 	Write pytest tests for the application.
 	Document the project, including setup instructions and usage.
-
+	
+	Note: Try some more mini and main projects to gain good knowledge & experience. 
