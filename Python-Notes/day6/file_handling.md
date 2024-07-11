@@ -31,11 +31,8 @@ File handling is used in:
 
 ## Diagrams
 
-### File Handling Process Diagram
-![File Handling Process Diagram](images/file_handling_process_diagram.png)
-
-### Context Manager Workflow Diagram
-![Context Manager Workflow Diagram](images/context_manager_workflow_diagram.png)
+### File Handling Process Diagram & Context Manager Workflow Diagram
+![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/470fcc6f-4cb6-414e-a1a0-bcd6d75bd6ce)
 
 ## Syntax
 ```python
