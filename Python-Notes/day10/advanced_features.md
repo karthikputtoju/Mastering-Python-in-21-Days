@@ -36,16 +36,16 @@ These features provide powerful tools for:
 ## Diagrams
 
 ### Iterator Workflow Diagram
-![Iterator Workflow Diagram](images/iterator_workflow_diagram.png)
+![image](https://github.com/user-attachments/assets/3223f6e5-b3a0-4140-8b84-6e22c8ff9ebd)
 
 ### Generator State Diagram
-![Generator State Diagram](images/generator_state_diagram.png)
+![image](https://github.com/user-attachments/assets/59cc9826-4c11-4d91-a42e-93d4061c1f86)
 
 ### Decorator Pattern Diagram
-![Decorator Pattern Diagram](images/decorator_pattern_diagram.png)
+![image](https://github.com/user-attachments/assets/a2e854e8-d7e5-47ee-80af-baf6c8d65781)
 
 ### Context Manager Flow Diagram
-![Context Manager Flow Diagram](images/context_manager_flow_diagram.png)
+![image](https://github.com/user-attachments/assets/8270b42f-b412-4227-ae16-a4adc3de4f46)
 
 ## Syntax
 ```python
