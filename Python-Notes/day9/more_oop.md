@@ -37,14 +37,13 @@ These concepts promote:
 ## Diagrams
 
 ### Encapsulation Diagram
-![image](https://github.com/user-attachments/assets/8249c3d1-7a69-4e89-87c8-c7baeb7b29be)
+![image](https://github.com/user-attachments/assets/6de561a1-54c5-421b-ac36-47faffe3cd63)
 
 ### Abstract Class and Method Diagram
-![image](https://github.com/user-attachments/assets/b552f2a3-0d72-459c-8c59-9c808bb07971)
+![image](https://github.com/user-attachments/assets/d3e0f10a-16b9-4db4-9c94-b85387da2673)
 
 ### Method Overriding Flow Diagram
-![image](https://github.com/user-attachments/assets/ac823be0-a1d3-4d5e-9bfd-14dda620c054)
-
+![image](https://github.com/user-attachments/assets/4f7cb2b3-922a-40b0-88b0-189448dd295c)
 
 ## Syntax
 ```python
