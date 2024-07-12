@@ -35,10 +35,10 @@ OOP is widely used in:
 ## Diagrams
 
 ### Class and Object Diagram
-![Class and Object Diagram](images/class_object_diagram.png)
+![image](https://github.com/user-attachments/assets/756c6c74-711d-4eec-9396-7ea2dc14c7de)
 
 ### Inheritance Hierarchy Diagram
-![Inheritance Hierarchy Diagram](images/inheritance_hierarchy_diagram.png)
+![image](https://github.com/user-attachments/assets/834baa18-295e-416d-9853-f7ad0933c321)
 
 ## Syntax
 ```python
