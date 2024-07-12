@@ -27,7 +27,7 @@ Functions are used in all aspects of programming, from performing basic operatio
 
 ## Diagrams
 
-### Function Definition and Call Diagram & Scope of Variables Diagram
+### Function Definition Call Diagram & Scope of Variables Diagram
 ![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/23f200ed-da08-4dbb-8696-44e50fe1a5ac)
 
 ## Syntax
