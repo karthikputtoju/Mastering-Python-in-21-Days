@@ -26,7 +26,7 @@ Libraries and frameworks are used in every aspect of software development, from 
 ## Diagrams
 
 ### Library Import Diagram
-![Library Import Diagram](images/library_import_diagram.png)
+![image](https://github.com/user-attachments/assets/24f98485-8baf-4ebc-a0ea-80636661da49)
 
 ### Framework Architecture Diagram
 ![Framework Architecture Diagram](images/framework_architecture_diagram.png)
