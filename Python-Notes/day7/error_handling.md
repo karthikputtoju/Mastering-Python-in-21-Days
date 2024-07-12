@@ -37,7 +37,7 @@ Error handling is used in:
 
 
 ### Custom Exception Hierarchy Diagram
-![Custom Exception Hierarchy Diagram](images/custom_exception_hierarchy_diagram.png)
+![image](https://github.com/user-attachments/assets/d76b2dfa-1274-4f8b-b829-8a0429141024)
 
 ## Syntax
 ```python
