@@ -27,13 +27,13 @@ API responses are used in web applications, mobile apps, data integration, and a
 ## Diagrams
 
 ### API Response Handling Diagram
-![API Response Handling Diagram](images/api_response_handling.png)
+![image](https://github.com/user-attachments/assets/06a1bcad-5b13-479d-8e6b-83e2e3563592)
 
 ### JSON Parsing Flowchart
-![JSON Parsing Flowchart](images/json_parsing_flowchart.png)
+![image](https://github.com/user-attachments/assets/5f8d6602-0ff9-43fe-972d-7b10d3067b6f)
 
 ### XML Parsing Diagram
-![XML Parsing Diagram](images/xml_parsing_diagram.png)
+![image](https://github.com/user-attachments/assets/82c94b26-9d1a-43ce-b47c-8c0acccbd9da)
 
 ## Syntax
 ```python
