@@ -42,7 +42,7 @@
 ## Diagrams
 
 ### Variable & Data Type Classification Diagram
-![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/a7c3e060-2571-4bb9-bc02-3673a54b8ad9)
+![image](https://github.com/user-attachments/assets/6aef42ae-2cd7-4d96-9bcf-c4beb232ab13)
 
 ## Syntax
 ```python
