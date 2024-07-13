@@ -28,16 +28,16 @@ Advanced functions are used in data processing, functional programming, and situ
 ## Diagrams
 
 ### Lambda Function Workflow Diagram
-![Lambda Function Workflow Diagram](images/lambda_function_workflow.png)
+![image](https://github.com/user-attachments/assets/79fd8e64-b2cb-47ec-8fe6-bf013e4f5b06)
 
 ### Map, Filter, Reduce Flowchart
-![Map, Filter, Reduce Flowchart](images/map_filter_reduce_flowchart.png)
+![image](https://github.com/user-attachments/assets/22981818-9e22-45d2-944b-62ff314578ed)
 
 ### List Comprehension Diagram
-![List Comprehension Diagram](images/list_comprehension_diagram.png)
+![image](https://github.com/user-attachments/assets/4ca48a0e-8339-4be6-b107-3dcae3bda09e)
 
 ### Decorator Pattern Diagram
-![Decorator Pattern Diagram](images/decorator_pattern_diagram.png)
+![image](https://github.com/user-attachments/assets/0570503b-fba9-4b0f-8607-e04d2b29806d)
 
 ## Syntax
 ```python
