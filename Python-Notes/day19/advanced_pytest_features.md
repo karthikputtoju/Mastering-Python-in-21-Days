@@ -35,13 +35,13 @@ These advanced features are used in larger projects requiring comprehensive test
 ## Diagrams
 
 ### Fixture Workflow Diagram
-![Fixture Workflow Diagram](images/fixture_workflow.png)
+![image](https://github.com/user-attachments/assets/3085e33d-98c3-4bab-b219-cef5274bebda)
 
 ### Parametrized Test Flowchart
-![Parametrized Test Flowchart](images/parametrized_test_flowchart.png)
+![image](https://github.com/user-attachments/assets/11de2e5b-1b20-4072-970b-e7bd9862415e)
 
 ### Mocking Process Diagram
-![Mocking Process Diagram](images/mocking_process.png)
+![image](https://github.com/user-attachments/assets/e2b0355d-2f91-498f-9101-8ca4e52aa6a8)
 
 ## Syntax
 ```python
