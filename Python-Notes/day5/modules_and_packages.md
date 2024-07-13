@@ -18,7 +18,7 @@ Modules and packages promote code reuse, organization, and modularity. They enab
 
 ### How to Implement
 - **Creating a Module**: Write Python code in a file with a `.py` extension. For example, `my_module.py`.
-- **Creating a Package**: Organize modules into directories with an `__init__.py` file. The `__init__.py` file makes the directory a package and can include initialization code.
+- **Creating a Package**: Organize modules into directories with an `__init__.py` file. The `__init__.py` file makes the directory a package and can include an initialization code.
 
 ### Where to Use
 Modules and packages are used to:
@@ -29,7 +29,7 @@ Modules and packages are used to:
 ## Diagrams
 
 ### Module Import Diagram & Package Structure Diagram
-![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/5e085072-f56f-450b-a595-649cd1674b53)
+![image](https://github.com/user-attachments/assets/3d872310-6f04-404f-ad22-9dfe569d1276)
 
 ## Syntax
 ```python
