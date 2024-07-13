@@ -11,10 +11,10 @@
 ## Detailed Explanations
 
 ### Definition
-The final review consolidates all the topics covered in the course, ensuring a solid understanding. The mini project involves applying the learned concepts to create a real-world application.
+The final review consolidates all the topics covered in the course, ensuring a solid understanding. The mini-project involves applying the learned concepts to create a real-world application.
 
 ### Why it is Required
-Reviewing key concepts reinforces understanding and retention. The mini project provides practical experience and demonstrates the ability to apply knowledge to solve real-world problems.
+Reviewing key concepts reinforces understanding and retention. The mini-project provides practical experience and demonstrates the ability to apply knowledge to solve real-world problems.
 
 ### How to Implement
 1. **Review Notes**: Revisit the course material, key concepts, and important topics.
@@ -29,13 +29,13 @@ Reviewing key concepts reinforces understanding and retention. The mini project 
 ## Diagrams
 
 ### Project Planning Diagram
-![Project Planning Diagram](images/project_planning.png)
+![image](https://github.com/user-attachments/assets/b09c554d-1541-4b72-b8f4-267dcc9d06c3)
 
 ### Application Architecture Diagram
-![Application Architecture Diagram](images/application_architecture.png)
+![image](https://github.com/user-attachments/assets/6ee085ff-755b-4b66-94b8-072786e688e5)
 
 ### Testing Workflow Diagram
-![Testing Workflow Diagram](images/testing_workflow.png)
+![image](https://github.com/user-attachments/assets/be050b36-9038-448b-b3ab-88b6e448498d)
 
 ## Syntax
 ```python
