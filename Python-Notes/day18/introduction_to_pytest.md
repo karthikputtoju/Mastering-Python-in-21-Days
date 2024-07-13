@@ -27,13 +27,13 @@ Testing is essential for maintaining code quality and reliability. `pytest` make
 ## Diagrams
 
 ### pytest Workflow Diagram
-![pytest Workflow Diagram](images/pytest_workflow.png)
+![image](https://github.com/user-attachments/assets/5ab3eb7f-2de6-4c84-bc7c-3776a5969829)
 
 ### Test Case Structure Diagram
-![Test Case Structure Diagram](images/test_case_structure.png)
+![image](https://github.com/user-attachments/assets/68170b09-33fd-4431-9ce3-4eeafa4a36f3)
 
 ### Assertion Flowchart
-![Assertion Flowchart](images/assertion_flowchart.png)
+![image](https://github.com/user-attachments/assets/280fe618-f10f-4a4d-987e-d78726468a50)
 
 ## Syntax
 ```python
