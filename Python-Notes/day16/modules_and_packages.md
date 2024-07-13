@@ -27,13 +27,13 @@ Modules and packages are used to organize code in larger projects, libraries, an
 ## Diagrams
 
 ### Module Import Diagram
-![Module Import Diagram](images/module_import_diagram.png)
+![image](https://github.com/user-attachments/assets/10bd3464-7967-44ef-b48a-df226fb80308)
 
 ### Package Structure Diagram
-![Package Structure Diagram](images/package_structure_diagram.png)
+![image](https://github.com/user-attachments/assets/bfe35589-84ec-4571-a7eb-25c2060a357e)
 
 ### Namespace Diagram
-![Namespace Diagram](images/namespace_diagram.png)
+![image](https://github.com/user-attachments/assets/17b0155a-8104-4da8-9e76-22b578e3341a)
 
 ## Syntax
 ```python
