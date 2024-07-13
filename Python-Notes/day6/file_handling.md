@@ -32,7 +32,7 @@ File handling is used in:
 ## Diagrams
 
 ### File Handling Process Diagram & Context Manager Workflow Diagram
-![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/470fcc6f-4cb6-414e-a1a0-bcd6d75bd6ce)
+![image](https://github.com/user-attachments/assets/581d5b1f-e4f2-4a17-9c08-b33cb7527d55)
 
 ## Syntax
 ```python
