@@ -29,10 +29,7 @@ Database operations are used in web applications, data-driven applications, and 
 ## Diagrams
 
 ### Database CRUD Operations Diagram
-![Database CRUD Operations Diagram](images/database_crud_operations.png)
-
-### SQLAlchemy ORM Diagram
-![SQLAlchemy ORM Diagram](images/sqlalchemy_orm.png)
+![image](https://github.com/user-attachments/assets/de107373-ccbf-4115-bb81-7ebcde50cc53)
 
 ## Syntax
 ```python
