@@ -26,10 +26,10 @@ APIs are used in web development, mobile apps, data integration, and various oth
 ## Diagrams
 
 ### API Request-Response Cycle Diagram
-![API Request-Response Cycle Diagram](images/api_request_response_cycle_diagram.png)
+![image](https://github.com/user-attachments/assets/0ca9895b-54f0-45cb-b7f2-21c9c77fbcb8)
 
 ### JSON Parsing Diagram
-![JSON Parsing Diagram](images/json_parsing_diagram.png)
+![image](https://github.com/user-attachments/assets/b66bd84d-b4a6-497c-8e9f-ba601986d83d)
 
 ## Syntax
 ```python
