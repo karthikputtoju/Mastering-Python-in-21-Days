@@ -27,13 +27,13 @@ API testing is applicable in web development, microservices, and any system that
 ## Diagrams
 
 ### API Testing Workflow Diagram
-![API Testing Workflow Diagram](images/api_testing_workflow.png)
+![image](https://github.com/user-attachments/assets/308bcc8f-a9cd-4dc7-838a-1197bdd733e9)
 
 ### Fixture Setup and Teardown Flowchart
-![Fixture Setup and Teardown Flowchart](images/fixture_setup_teardown.png)
+![image](https://github.com/user-attachments/assets/ad6ae38c-134d-4748-8b46-893062517849)
 
 ### Mocking API Requests Diagram
-![Mocking API Requests Diagram](images/mocking_api_requests.png)
+![image](https://github.com/user-attachments/assets/6ed86e38-cabb-4316-b539-ae3139bd3fc6)
 
 ## Syntax
 ```python
