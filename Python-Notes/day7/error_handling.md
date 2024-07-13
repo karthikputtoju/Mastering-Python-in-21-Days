@@ -32,12 +32,8 @@ Error handling is used in:
 
 ## Diagrams
 
-### Exception Handling Flow Diagram
-![image](https://github.com/karthikputtoju/Mastering-Python-in-21-Days/assets/37204779/f1d994b2-3775-4190-ab44-901564b02c7c)
-
-
-### Custom Exception Hierarchy Diagram
-![image](https://github.com/user-attachments/assets/d76b2dfa-1274-4f8b-b829-8a0429141024)
+### Exception Handling Flow & Custom Exception Hierarchy Diagram
+![image](https://github.com/user-attachments/assets/71f31cd4-916c-4b87-9a01-faef23378949)
 
 ## Syntax
 ```python
