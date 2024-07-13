@@ -27,13 +27,13 @@ API consumption is crucial in web development, mobile apps, data integration, an
 ## Diagrams
 
 ### API Request-Response Cycle with Authentication Diagram
-![API Request-Response Cycle with Authentication](images/api_request_response_cycle_authentication.png)
+![image](https://github.com/user-attachments/assets/81e2ecd6-53e4-4752-8192-46c76e60d0ad)
 
 ### Rate Limiting Flowchart
-![Rate Limiting Flowchart](images/rate_limiting_flowchart.png)
+![image](https://github.com/user-attachments/assets/076b6165-55e3-4a8d-8e6d-450d883ffd0a)
 
 ### Error Handling in API Requests Diagram
-![Error Handling in API Requests](images/error_handling_api_requests.png)
+![image](https://github.com/user-attachments/assets/a8b50a12-f44a-4903-abba-2b6d49d577b4)
 
 ## Syntax
 ```python
