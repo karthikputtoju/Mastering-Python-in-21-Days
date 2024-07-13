@@ -29,7 +29,7 @@ Reviewing key concepts reinforces understanding and retention. The mini-project 
 ## Diagrams
 
 ### Project Planning Diagram
-![image](https://github.com/user-attachments/assets/b09c554d-1541-4b72-b8f4-267dcc9d06c3)
+![image](https://github.com/user-attachments/assets/008987e1-8c4f-4fdf-be6b-7600ff998e00)
 
 ### Application Architecture Diagram
 ![image](https://github.com/user-attachments/assets/6ee085ff-755b-4b66-94b8-072786e688e5)
