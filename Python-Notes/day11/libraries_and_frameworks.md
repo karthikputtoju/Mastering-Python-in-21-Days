@@ -29,7 +29,7 @@ Libraries and frameworks are used in every aspect of software development, from 
 ![image](https://github.com/user-attachments/assets/24f98485-8baf-4ebc-a0ea-80636661da49)
 
 ### Framework Architecture Diagram
-![Framework Architecture Diagram](images/framework_architecture_diagram.png)
+![image](https://github.com/user-attachments/assets/13d2dbf5-822f-4347-9c91-5ce295d5ecd7)
 
 ## Syntax
 ```python
