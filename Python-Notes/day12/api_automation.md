@@ -69,18 +69,18 @@ json_data = '{"name": "Alice", "age": 30}'
 data = json.loads(json_data)
 print(data['name'])  # Output: Alice
 print(data['age'])  # Output: 30
-Explanation Code Step by Step
-GET Request:
-
-requests.get('https://api.github.com') makes an HTTP GET request to the GitHub API.
-response.json() parses the JSON response.
-POST Request:
-
-requests.post('https://httpbin.org/post', json={'name': 'Alice'}) makes an HTTP POST request with JSON data.
-Parsing JSON Response:
-
-json.loads(json_data) parses the JSON string into a Python dictionary.
 ```
+## Explanation Code Step by Step
+1. GET Request:
+
+	- requests.get('https://api.github.com') makes an HTTP GET request to the GitHub API.
+	- response.json() parses the JSON response.
+2. POST Request:
+
+	- requests.post('https://httpbin.org/post', json={'name': 'Alice'}) makes an HTTP POST request with JSON data.
+3. Parsing JSON Response:
+
+	- json.loads(json_data) parses the JSON string into a Python dictionary.
 
 ## Key Points to Remember
 1. RESTful APIs use standard HTTP methods for communication.
