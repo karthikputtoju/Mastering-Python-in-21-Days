@@ -61,5 +61,5 @@ This repository is licensed under the MIT License. See the LICENSE file for more
 
 ## Contact
 
-For any questions or feedback, feel free to reach out at pkarthik.qa@gmail.com
+For any questions or feedback, feel free to reach out at karthik.puttoju9@gmail.com
 
